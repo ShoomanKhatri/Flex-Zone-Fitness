@@ -1,0 +1,68 @@
+# Ignore XAMPP-related files and directories
+/xampp
+/htdocs
+
+# Ignore WordPress core files and directories
+/wp-admin
+/wp-includes
+/wp-content/plugins
+/wp-content/cache
+/wp-content/upgrade
+/wp-content/backup-db
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-config.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/wp-*.php
+/wp-*.xml
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+
+# Ignore WordPress configuration files that may contain sensitive information
+/wp-config.php.save
+/wp-config-sample.php
+
+# Ignore WordPress cache and temporary files
+/.htaccess
+/.htpasswd
+/sitemap.xml
+/sitemap.xml.gz
+/.git
+/.idea
+/*.log
+/*.sql
+/*.gz
+/*.zip
+
+# Ignore developer files and directories
+/node_modules
+/.vscode
+/vendor
+/.sass-cache
+/*.scssc
+
+# Ignore IDE configuration files
+/.vscode
+/.idea
+
+# Ignore image files that don't need to be version controlled
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+
+# Ignore development and build files
+/Gruntfile.js
+/package-lock.json
+/yarn.lock
+/package.json
+/assets
+/dist
